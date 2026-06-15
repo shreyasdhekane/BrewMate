@@ -14,9 +14,9 @@ BrewMate is a barista-side kiosk app that lets staff take customized coffee orde
 
 ## Screenshots
 
-| Home | Menu | Customize | Cart | Receipt |
-|------|------|-----------|------|---------|
-| ![Home](screenshots/home.png) | ![Menu](screenshots/menu.png) | ![Detail](screenshots/detail.png) | ![Cart](screenshots/cart.png) | ![Receipt](screenshots/receipt.png) |
+| Home                     | History                     | Customize                    | Cart                     | Receipt                        |
+| ------------------------ | --------------------------- | ---------------------------- | ------------------------ | ------------------------------ |
+| ![Home](images/home.png) | ![Menu](images/history.png) | ![Detail](images/detail.png) | ![Cart](images/cart.png) | ![Receipt](images/receipt.png) |
 
 ---
 
@@ -35,16 +35,16 @@ BrewMate is a barista-side kiosk app that lets staff take customized coffee orde
 
 ## Tech Stack
 
-| Layer | Technology |
-|-------|------------|
-| Language | Kotlin |
-| UI | Jetpack Compose + Material3 |
-| Architecture | MVVM |
-| State | StateFlow + ViewModel |
-| Navigation | Navigation Compose |
-| Persistence | Jetpack DataStore (Preferences) |
-| Serialization | `org.json` (bundled) |
-| Min SDK | API 26 (Android 8.0) |
+| Layer         | Technology                      |
+| ------------- | ------------------------------- |
+| Language      | Kotlin                          |
+| UI            | Jetpack Compose + Material3     |
+| Architecture  | MVVM                            |
+| State         | StateFlow + ViewModel           |
+| Navigation    | Navigation Compose              |
+| Persistence   | Jetpack DataStore (Preferences) |
+| Serialization | `org.json` (bundled)            |
+| Min SDK       | API 26 (Android 8.0)            |
 
 ---
 
@@ -113,11 +113,11 @@ com.brewmate/
 
 ## Auth Flow
 
-| Mode | How to access |
-|------|---------------|
+| Mode    | How to access                                                                            |
+| ------- | ---------------------------------------------------------------------------------------- |
 | Barista | Enter your 5-digit ID — first time registers your name, subsequent logins go straight in |
-| Admin | Enter `00000` |
-| Guest | Tap "Continue as Guest" — session is not persisted across restarts |
+| Admin   | Enter `00000`                                                                            |
+| Guest   | Tap "Continue as Guest" — session is not persisted across restarts                       |
 
 ---
 
@@ -153,4 +153,4 @@ MSCS · Indiana University Luddy School · May 2027
 
 ---
 
-*Built as a portfolio project demonstrating the Decorator design pattern in a real Android application.*
+_Built as a portfolio project demonstrating the Decorator design pattern in a real Android application._
