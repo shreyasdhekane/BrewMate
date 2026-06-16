@@ -14,9 +14,9 @@ BrewMate is a barista-side kiosk app that lets staff take customized coffee orde
 
 ## Screenshots
 
-| Home                     | History                     | Customize                    | Cart                     | Receipt                        |
-| ------------------------ | --------------------------- | ---------------------------- | ------------------------ | ------------------------------ |
-| ![Home](images/home.png) | ![Menu](images/history.png) | ![Detail](images/detail.png) | ![Cart](images/cart.png) | ![Receipt](images/receipt.png) |
+| Home                          | History                          | Customize                         | Cart                          | Receipt                             |
+| ----------------------------- | -------------------------------- | --------------------------------- | ----------------------------- | ----------------------------------- |
+| ![Home](docs/images/home.png) | ![Menu](docs/images/history.png) | ![Detail](docs/images/detail.png) | ![Cart](docs/images/cart.png) | ![Receipt](docs/images/receipt.png) |
 
 ---
 
